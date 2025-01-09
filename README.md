@@ -1,1 +1,4 @@
 # QWRA_in_R_terra
+This is a workflow to complete a Quantitative Wildfire Risk Assessment (QWRA) using the R terra package. It follows the methods described in Scott et al. (2013) "A wildfire risk assessment framework for land and resource management" (https://www.fs.usda.gov/rm/pubs_series/rmrs/gtr/rmrs_gtr315.pdf). Users are encouraged to read this document before attempting the QWRA workflow to familiarize yourself with the theory, terminology, and the general GIS input data types and processes.
+
+Wildfire risk assessment seeks to quantify and map the interaction among highly valued resources and assets (HVRAs), wildfire hazard, and the vulnerability of HVRAs to fire. Hazard is a physical situation with the potential to cause harm. In wildfire risk assessment, hazard is estimated spatially in terms of both fire likelihood and fire intensity. Risk refers to the potential consequences considering both HVRA exposure and susceptibility to fire.  
