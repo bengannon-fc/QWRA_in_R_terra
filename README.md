@@ -26,3 +26,5 @@ Scripts
 3) 00_3_Ooze_intensity.R - optional pre-QWRA calculations to estimate fire intensity in non-burnable areas adjacent to wildland fuels such as the fringes of developed or agricultural areas
 4) 01_QWRA_calcs.R - performs QWRA calculations, suitable for large landscapes (e.g., National Forest or BLM District) on most computers
 5) 01_QWRA_calcs_manage_memory.R - performs QWRA calculations with more sophisticated memory management to accomodate regional or national scale analyses
+
+*Scripts were developed and tested using R version 4.3.1 and terra version 1.7-46.
