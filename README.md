@@ -8,6 +8,7 @@ Inputs
 2) Rasters of conditional likelihood of burning under different fire intensity or flame length ranges
 3) Rasters of HVRA extents
 4) Table with fire effects response functions and importance weights
+
 *Raster input data should all have the same extent, coordinate system, spatial resolution, and cell alignment. This workflow does not include instructions on wildfire hazard modeling or HVRA raster developement. 
 
 Outputs
