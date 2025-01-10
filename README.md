@@ -14,7 +14,7 @@ Inputs
 Outputs
 1) Total landscape value showing the importance assigned to each raster cell
 2) cNVC total and by HVRA/sub-HVRA
-3) eNVC total andby HVRA/sub-HVRA
+3) eNVC total and by HVRA/sub-HVRA
 
 QWRA Workbook
 The "MasterTable" and "Relative Importance" worksheets demonstrates a common workflow to assign quantitative response functions and importance weights. HVRAs are ranked and assigned relative importance values in the "Relative Importance" worksheet that can be visualized with a pie chart. Each row in the master table refers to an HVRA or sub-HVRA that is mapped in one of the input HVRA rasters. HVRAs can be divided into sub-HVRAs where multiple resource or asset types contribute to a theme in the risk assessment, for example, critical infrastructure may include both communication sites and electric power transmission lines. Sub-HVRAs can be assigned different relative importance weights. This worksheet uses a technique where the sub-HVRAs are assigned Relative Importance Per Pixel (RIPP) Weights on a scale from 0 to 100 that are combined with the HVRA relative importance weights and the extent information to calculate a final RIPP for the risk assessment. HVRAs and sub-HVRAs can also be divided using co-variates to represent how different factors alter the response to fire, e.g., slope and vegetation type alter how watersheds respond to wildfire. Data from the "MasterTable" worksheet is copied over to the simpler "CalcTable" worksheet as input to the QWRA calculation scripts. 
